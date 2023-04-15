@@ -12,7 +12,7 @@ private:
 public:
     void value(){
         std::cout<<"Enter name: \n";
-        std::cin.ignore();
+        //std::cin.ignore();
         getline(std::cin,name);
         std::cout<<"Enter Account number: \n";
         std::cin>>accnum;
